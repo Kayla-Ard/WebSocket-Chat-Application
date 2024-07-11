@@ -1,0 +1,69 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b6d2ed;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: black;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+    outline: 1px solid black;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: #b6d2ed;
+    border: 1px solid greenyellow;
+    font-size: 16px;
+}
+
+button:hover, #leaveButton:hover {
+    font-size: 18px;
+    color: yellowgreen;
+}
+
+#leaveButton {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: #b6d2ed;
+    border: 1px solid greenyellow;
+    font-size: 16px;
+}
+
+#leaveButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#messages {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:white;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+

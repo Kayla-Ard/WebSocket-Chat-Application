@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome To The Chat Room</h1>
+    <div id="joinChat">
+        <form id="joinForm">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button type="submit">Join Room</button>
+        </form>
+    </div>
+    <div id="chatRoom" style="display: none;">
+        <form id="messageForm">
+            <input type="text" id="message" placeholder="Enter your message">
+            <button type="submit">Send</button>
+        </form>
+        <div id="messages"></div>
+        <br>
+        <div id= "leaveButtonContainer">
+            <button id="leaveButton">Leave Room</button>
+        <div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
+
