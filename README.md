@@ -21,15 +21,6 @@ This project is a simple chat room application built using Flask, Socket.IO, and
 
 ## Project Structure
 
-├── app.py
-├── templates
-│   └── join_room.html
-├── static
-│   ├── main.js
-│   └── styles.css
-├── requirements.txt
-└── README.md
-
 - app.py: Main application file that initializes Flask and Socket.IO, and handles routing and Socket.IO events.
 - templates/join_room.html: HTML file for the chat room interface.
 - static/main.js: JavaScript file for handling client-side Socket.IO events.
